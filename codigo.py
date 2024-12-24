@@ -16,8 +16,8 @@ userBox = browser.find_element("name","email")
 passBox = browser.find_element("name","pass")
 loginButton = browser.find_element("name","login")
 
-userBox.send_keys("82988105144")
-passBox.send_keys("00023002")
+userBox.send_keys(input("Digite seu email: "))
+passBox.send_keys(input("Digite sua senha: "))
 loginButton.click()
 justOneSecond()
 
